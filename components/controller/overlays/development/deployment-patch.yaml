@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: controller
+  namespace: skabashn-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:cfd55f25e9e32ae9ced374dff0c1410514b9b917d7e7dd41c08c25a90bbf4c74
+        name: container-image
+        resources: {}
+status: {}
