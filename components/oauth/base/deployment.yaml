@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: oauth
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:EcYht-oauth
+      - image: quay.io/redhat-appstudio/user-workload@sha256:694aac2add5345a72055e6a2127c08b151aab114b547adf32cc3e8ccfe7e7e41
         name: my-go
         ports:
         - containerPort: 8081
