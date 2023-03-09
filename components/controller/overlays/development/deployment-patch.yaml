@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:e7eae84c57d513d0c094929314c2b4b6e2dfd9f36243d6d18d87be457f7b29a5
+      - image: quay.io/redhat-appstudio/user-workload@sha256:5ba0b0340916f5a9061ccc34b59391e14f0f5e28eb3905e648d9da2e4f382983
         name: container-image
         resources: {}
 status: {}
