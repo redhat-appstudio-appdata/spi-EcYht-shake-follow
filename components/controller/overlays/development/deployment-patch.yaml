@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:EcYht-controller
+      - image: quay.io/redhat-appstudio/user-workload@sha256:e7eae84c57d513d0c094929314c2b4b6e2dfd9f36243d6d18d87be457f7b29a5
         name: container-image
         resources: {}
 status: {}
